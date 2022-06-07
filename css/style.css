@@ -342,6 +342,49 @@ header .shopping-cart .box .content .quantity{
     color: var(--orange);
     padding: .5rem 0;
 }
+.categories .box-container{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(24rem,1fr));
+    /* grid-template-columns:1fr 1fr 1fr ; */
+    gap:1.5rem;
+}
+.categories .box-container .box{
+    padding: 3rem 2rem ;
+    border-radius: .5rem;
+    background: #fff;
+    box-shadow: var(--box-shadow);
+    outline: var(--outiline);
+    outline-offset: -1rem;
+    text-align: center;
+}
+.categories .box-container .box:hover{
+    outline: var(--outiline-hover);
+    outline-offset: 0rem;
+}
+.categories .box-container .box img{
+   margin: 1rem 0;
+   height: 15rem;
+}
+.categories .box-container .box h3{
+    font-size: 2rem;
+    color: var(--black);
+    line-height: 1.8;
+ }
+ .categories .box-container .box p{
+    font-size: 1.7rem;
+    color: var(--light-color);
+    line-height: 1.8;
+    padding: 1rem 0;
+ }
+
+/* .categories .box-container .box{
+    padding: 3rem 2rem;
+    background: #fff;
+    outline: var(--outiline);
+    outline-offset:-1rem ;
+    text-align: center;
+    box-shadow: var(--box-shadow);
+} */
 
 
 
