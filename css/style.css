@@ -29,6 +29,9 @@ html{
 body{
     background: #eee;
 }
+section{
+    padding: 2rem 9%;
+}
 .btn{
     margin-top: 1rem;
     display: inline-block;
@@ -214,6 +217,7 @@ header .shopping-cart .box .content .quantity{
     color:var(--black);
     text-transform: none;
 }
+
 .header .login-form p{
     font-size: 1.4rem;
     padding: .5rem;
@@ -223,6 +227,33 @@ header .shopping-cart .box .content .quantity{
 .header .login-form p a{
     color: var(--orange);
     text-decoration: underline;
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(/image/banner-bg.webp) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 17rem;
+    padding-bottom: 10rem;
+}
+.home .content{
+    text-align: center;
+    width: 60rem;
+}
+.home .content h3{
+    color: var(--black);
+    font-size: 3rem;
+}
+.home .content span{
+    color: var(--orange);
+}
+.home .content p{
+    color: var(--light-color);
+    font-size: 1.7rem;
+    padding: 1rem 0;
+    line-height: 1.8;
 }
 
 
@@ -237,8 +268,10 @@ header .shopping-cart .box .content .quantity{
         display: inline-block;
     }
     .header{
+        padding: 2rem;   
+    }
+    section{
         padding: 2rem;
-        
     }
 
 }
